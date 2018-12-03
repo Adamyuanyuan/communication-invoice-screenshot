@@ -1,0 +1,16 @@
+$def with (name)
+
+$if name:
+    I just wanted to say <em>hello</em> to $name.
+$else:
+    <em>Hello</em>, world!
+
+hi，你好，请填写：
+
+<form method="get" action="genImages">
+    <p>
+        开始数字 <input type="text" name="startNum"/>
+        结束数字 <input type="text" name="endNum"/>
+        <input type="submit" value="开始生成" />
+    </p>
+</form>
