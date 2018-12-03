@@ -5,6 +5,11 @@ http://www.tax.sh.gov.cn/xbwz/wzcx/WSBSptFpCx_loginsNewl.jsp
 我这个临时写得很随意很烂，求修改
 
 ## 使用方法：
+
+### 使用之前得先安装pil库
+http://www.pythonware.com/products/pil/
+
+### 使用很简单
 ```
 git clone https://github.com/Adamyuanyuan/communication-invoice-screenshot.git
 cd communication-invoice-screenshot
