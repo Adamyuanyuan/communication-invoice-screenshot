@@ -40,8 +40,8 @@ def genImages(startNum, endNum, backgroundImage, prefixNumStr, preZeroNum):
             # 在图片上添加文字 1
             draw = ImageDraw.Draw(im1)
             numStr = prefixNumStr + '0'*preZeroNum + str(num)
-            draw.text((181, 66), numStr, (80, 80, 80), font=font)
-            # 003.png的： draw.text((192, 64), numStr, (80, 80, 80), font=font)
+            # draw.text((181, 66), numStr, (80, 80, 80), font=font)
+            draw.text((196, 66), numStr, (80, 80, 80), font=font)
             draw = ImageDraw.Draw(im1)
             siveFileName = siveFilePath + os.sep + numStr + ".png"
 
@@ -55,7 +55,8 @@ def genImages(startNum, endNum, backgroundImage, prefixNumStr, preZeroNum):
 
 def main():
     """main"""
-    backgroundImage = "002.png"
+    # backgroundImage = "002.png"
+    backgroundImage = "004.png"
     prefixNumStr = sys.argv[1]
     startNum = int(sys.argv[2])
     endNum = int(sys.argv[3])
